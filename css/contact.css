@@ -1,1 +1,58 @@
 /* Name: Santosh Khanal, Student ID:16418522 */
+
+section{
+    color:black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0% 12% 0% 12%;
+    padding: 3% 0%;
+}
+.contact1{
+    width: 55%;
+    background-color:  #F9F9F9;
+    border:1px solid  #034c2e;
+    padding: 20px 10px 30px 10px;
+    border-radius: 15px;
+    box-shadow:4px 4px 0 3px brown;
+
+}
+.contact1 h2{ text-align: center; color: yellow; background-color: brown; }
+.contact1 p{ width: 130px; margin:6px;}
+.fieldset{
+    display: flex;
+    flex-direction: row;
+}
+input, textarea{ margin:6px; }
+textarea{ width: 60%; height:100px; }
+.submit{
+    margin-left: 45%;
+    margin-top: 5%;
+    background-color: lightgray; 
+    padding:1.5%;
+    border: 0px solid black;
+    border-radius: 4px;
+}
+.submit:hover{box-shadow:3px 2px black;}
+
+.contact2{
+    width: 45%;
+    background-color: #F9F9F9;
+    border:1px solid  #034c2e;
+    padding: 20px 10px 30px 10px;
+    margin-left: 10%;
+    border-radius: 15px;
+    box-shadow:4px 4px 0 3px brown;
+}
+.contact2 h2{ text-align: center; color: yellow; background-color: brown; }
+.contact2 li{ width: 100px; }
+.contact2 ul li { list-style-type: none; }
+
+
+@media max-width: 400px{
+    .container{ flex-direction: column-reverse; }
+}
+
