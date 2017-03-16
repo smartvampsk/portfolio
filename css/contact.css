@@ -3,7 +3,8 @@
 section{
     color:black;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1em;
+    background-color: #80a5c2;
 }
 .container{
     display: flex;
@@ -11,48 +12,44 @@ section{
     margin: 0% 12% 0% 12%;
     padding: 3% 0%;
 }
-.contact1{
+ .contact1 fieldset{
     width: 55%;
     background-color:  #F9F9F9;
-    border:1px solid  #034c2e;
-    padding: 20px 10px 30px 10px;
-    border-radius: 15px;
-    box-shadow:4px 4px 0 3px brown;
+    border:0.0625em solid  #034c2e;
+    padding: 1.25em 0.625em 1.875em 0.625em;
+    border-radius: 0.9375em;
+    box-shadow:0.25em 0.25em  0 0.1875em brown;
 
 }
 .contact1 h2{ text-align: center; color: yellow; background-color: brown; }
-.contact1 p{ width: 130px; margin:6px;}
+.contact1 p{ width: 11.875em; margin:0.375em;}
 .fieldset{
     display: flex;
     flex-direction: row;
 }
-input, textarea{ margin:6px; }
-textarea{ width: 60%; height:100px; }
+input, textarea{ margin:0.375em; }
+textarea{ width: 60%; height:5em; }
 .submit{
     margin-left: 45%;
     margin-top: 5%;
     background-color: lightgray; 
     padding:1.5%;
-    border: 0px solid black;
-    border-radius: 4px;
+    border: 0 solid black;
+    border-radius: 0.25em;
 }
-.submit:hover{box-shadow:3px 2px black;}
+.submit:hover{box-shadow:0.1875em 0.125em black;}
 
-.contact2{
+.contact2 fieldset{
     width: 45%;
     background-color: #F9F9F9;
-    border:1px solid  #034c2e;
-    padding: 20px 10px 30px 10px;
-    margin-left: 10%;
-    border-radius: 15px;
-    box-shadow:4px 4px 0 3px brown;
+    border:0.0625em solid  #034c2e;
+    padding: 1.25em 4.375em 6.75em 0.625em;
+    margin-left: 30%;
+    border-radius: 0.9375em;
+    box-shadow:0.25em 0.25em 0 0.1875em brown;
 }
 .contact2 h2{ text-align: center; color: yellow; background-color: brown; }
-.contact2 li{ width: 100px; }
+.contact2 li{ width: 6.25em; }
 .contact2 ul li { list-style-type: none; }
 
-
-@media max-width: 400px{
-    .container{ flex-direction: column-reverse; }
-}
 
