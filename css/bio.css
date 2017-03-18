@@ -1,1 +1,30 @@
 /* Name: Santosh Khanal, Student ID:16418522 */
+
+@import url("https://fonts.googleapis.com/css?family=Damion|Meie+Script");
+
+
+.aboutme{
+	padding:3% 12% 1% 12%;
+	text-align: justify;
+	background-color: #80a5c2;
+}
+.aboutme h1{
+	background: brown;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	text-shadow: 0.03em 0.05em yellow;
+	font-size: 2.8em;
+}
+.aboutme h1:hover{text-shadow: 0.07em 0.1em white;  }
+.aboutme h3{ 
+	font-family: 'Meie Script', cursive;
+	font-size: 1.5625em;
+	padding-left: 0.625em;
+	color:blue;
+}
+
+.aboutme p{
+	font-family: 'Damion', cursive;
+	font-size: 1.375em;
+}
+.aboutme .p1{text-indent: 5%;}
