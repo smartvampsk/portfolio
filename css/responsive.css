@@ -15,6 +15,7 @@
 	.about{margin-left:3.5%; border:hidden; text-align: left; font-weight: normal;}
 	.social-sites{margin:1em .7em; text-align: left;}
 	.social-sites ul{margin:.5em -.7em; text-align: left;}
+	.social-sites ul img{ height: 50px; width: 50px; }
 	.copyright{margin:.0em 0em 1em -4em; border:hidden;}
 
 
