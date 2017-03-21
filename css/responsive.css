@@ -15,21 +15,26 @@
 	.about{margin-left:3.5%; border:hidden; text-align: left; font-weight: normal;}
 	.social-sites{margin:1em .7em; text-align: left;}
 	.social-sites ul{margin:.5em -.7em; text-align: left;}
-	.social-sites ul img{ height: 50px; width: 50px; }
+	.social-sites ul img{ height: 50px; width: 50px;}
+	.social-sites ul li a img { transform:none; }
 	.copyright{margin:.0em 0em 1em -4em; border:hidden;}
 
 
 /* for index's section only */
-	.main-section{ background-image: url(../images/santosh.gif); background-size: auto; background-blend-mode: screen;}
+	.main-section{ background-image: url(../images/santosh.gif); background-size:300px 550px; background-repeat:no-repeat; background-blend-mode: screen;}
+	.section1 q{ font-size: 1.2em; }
 	.section2 img{display:none;}
-	.bottom-section{display: flex;flex-direction: column;}
+	.bottom-section{display: none;}
 	.text{height: 2.69em;}
+	.p11{font-size: 20px;}
+	.p12{font-size: 25px;}
+	.p13{font-size: 30px;}
 
 
 
 /* for CV's section only */
 	.level h1{ font-size: 1em; line-height: 1.7em; }
-	.level img{margin: 0% 5%; transform: none;}
+	.level img{ height: 200px; width:200px; margin: 0% 5%; transform: none;}
 	.level img:hover{transform:none;}
 	.level{ display: flex;flex-direction: column;}
 	.level1, .level2, .level3{ display: flex;flex-direction: column; font-size: 0.8em; margin:0;}

@@ -28,7 +28,7 @@ header{ /* style in header part*/
  }
 
 .con{
-	width: 75%; /* horizontal distance*/
+	width: 75%; 
 	text-align: right; /* to align the text*/
 	padding-right: 1.25em;
 }
@@ -38,6 +38,10 @@ address{
 }
 
 .menu{
+	background: cyan; /* for those browsers which do not suppoert gradient*/
+	background: -webkit-linear-gradient(green, #0cf); /* for safari*/
+	background: -o-linear-gradient(green, #0cf); /*  for opera*/
+	background: -moz-linear-gradient(green, #0cf);  /* for mozilla*/
 	background: linear-gradient(green, #0cf); /* created gradient in nav bar .i.e menu here */
 	font-family: 'Lobster', cursive; /* writing the text in different font */
 	line-height: 5em; /* adjusting the height of line */
@@ -107,9 +111,15 @@ header nav{
 	opacity: .7;
 	width:100%;
 	height:100%;
-	transition: transform 2.5s;
+	-webkit-transition: transform 2.5s; /* for safari*/
+	-o-transition: transform 2.5s; /* for opera*/
+	-moz-transition: transform 2.5s; /* for mozilla*/
+	transition: transform 2.5s; /* standard*/
 }
 .section3:hover .section31, .section4:hover .section31, .section5:hover .section31{
+	-webkit-transform: translateX(-12.5em);
+	-o-transform: translateX(-12.5em);
+	-moz-transform: translateX(-12.5em);
 	transform: translateX(-12.5em);
 }
 
@@ -157,7 +167,14 @@ footer{ /* styles for the footer part */
 	margin-bottom: 0.625em;
 }
 .social-sites ul li a { margin-left: 0.5em; } 
-.social-sites ul li a img{border: 0.000625em solid white ; border-radius: 50%; transition: width 1s, height 1s, transform 2s;} /* borders and code for transition */
+.social-sites ul li a img{
+	border: 0.000625em solid white ;
+	border-radius: 50%;
+	transition: -webkit-width 1s, height 1s, transform 2s;
+	transition: -o-width 1s, height 1s, transform 2s;
+	transition: -moz-width 1s, height 1s, transform 2s;
+	transition: width 1s, height 1s, transform 2s;
+} 
 .social-sites ul li a img:hover{ box-shadow: 0 0 0.0625em 0.1875em lightblue; opacity: .9 ;transform:rotate(360deg);} /* transitional effect*/
 .social-sites ul li{ list-style-type: none; }
 
