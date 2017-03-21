@@ -16,7 +16,7 @@
 	.social-sites{margin:1em .7em; text-align: left;}
 	.social-sites ul{margin:.5em -.7em; text-align: left;}
 	.social-sites ul img{ height: 50px; width: 50px;}
-	.social-sites ul li a img { transform:none; }
+	.social-sites ul li a img { transform:none; margin-left: 0.8em; }
 	.copyright{margin:.0em 0em 1em -4em; border:hidden;}
 
 
@@ -52,7 +52,7 @@
 /* for Contact's section only */
 	.container{ display: flex;flex-direction: column; margin:0 2%; }
 	.contact1{width: 95%; margin:0%;}
-	.contact1 p, .contact2 p{font-size: 1em; width: 8em;}
+	.contact1 p, .contact2 p{font-size: 0.65em; width: 8em;}
 	.contact1 fieldset{margin-right: 7%;}
 	.contact1 input{margin-left: .1em;}
 	.contact1 textarea{margin-left: 1.3em;}

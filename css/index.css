@@ -24,6 +24,9 @@ header{ /* style in header part*/
 }
 .logo img {
 	padding-left: 25%; 
+	-webkit-transform: rotate(-4deg); /*for safari*/
+	-o-transform: rotate(-4deg); /* for opera*/
+	-moz-transform: rotate(-4deg); /* for mozilla*/
  	transform: rotate(-4deg); /* slightly rotating the logo*/
  }
 
