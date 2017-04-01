@@ -1,40 +1,47 @@
 /* Name: Santosh Khanal, Student ID:16418522 */
 
+/* importing google font*/
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 
+/* style for p tag*/
 p{ font-size: 1.2em;
-	font-weight: bold;
+	font-weight: bold;                                      /*for making bold font*/
 }
-section{ font-size: 1.4em;	background-color: #80a5c2; }
-h1{ font-size: 2em; }
+section{
+	font-size: 1.4em;
+	background-color: #80a5c2;
+}
+h1{
+	font-size: 2em;
+}
 h1, h2{ 
-	font-family: 'Lobster', cursive;
+	font-family: 'Lobster', cursive;						  /* changing the font family of h2 and h1 */
 	background-color: brown;
 	color: black;
 	text-align: center;
-	text-shadow: 0.03em 0.05em yellow;
+	text-shadow: 0.03em 0.05em yellow; 						  /* giving a shodow to the text*/
 }
-h1:hover, h2:hover{text-shadow: 0.07em 0.1em white;}
+h1:hover, h2:hover{text-shadow: 0.07em 0.1em white;}          /* changing shadow when hovered*/
 h4{ font-family: 'Lobster', cursive; padding-left:8%;}
 
-.level{
+.level{ 														/*trying to keep the content of this part in column */
 	display: flex;
 	flex-direction: column;
 	margin: 0% 12% 0% 12%;
 	padding:3% 0% 3% 0%;
 }
-.level img{
+.level img{ 													/* this is the styles for image just below of heading */
 	width: 11em;
 	height: 11em;
 	margin: 4% 45% 4% 40%;
 	border-radius: 50%;
-	box-shadow: 0 0 2em yellowgreen;
+	box-shadow: 0 0 2em yellowgreen; 							/* i want to have a shadow around of image */
 	transition: -webkit-transform 2s; /* for safari*/
 	transition: -o-transform 2s; /* for opera*/
 	transition: -moz-transform 2s; /* for mozilla*/
-	transition: transform 2s;  /* standard */
+	transition: transform 2s;  /* standard */					/* when hovered i want to change scale of image*/
 }
-.level img:hover{
+.level img:hover{ 												/* changing scale */
 	transform: -webkit-scale(1.4, 1.4);
 	transform: -o-scale(1.4, 1.4);
 	transform: -moz-scale(1.4, 1.4);
@@ -42,29 +49,29 @@ h4{ font-family: 'Lobster', cursive; padding-left:8%;}
 }
 
 
-.level1, .level2, .level3{
+.level1, .level2, .level3{										/* all of the content inside these div will be shown in row. */
 	display: flex;
 	flex-direction: row;
 	width: 100%;
 	height: 50%;
 	margin-bottom: 12%;
 }
-.p-detail, .education, .strength{
+.p-detail, .education, .strength{ 								/* all of the content inside these div will be shown in row. */
 	width: 60%;
 	border:0.0125em solid black;
 	padding-top: 2.5%;
 	padding-bottom: 2.5%;
 	border-radius: 1em;
-	background: -webkit-linear-gradient(to right,lavender, #0cf, lavender);
+	background: -webkit-linear-gradient(to right,lavender, #0cf, lavender);  /*  for linear gradient */
 	background: -o-linear-gradient(to right,lavender, #0cf, lavender);
 	background: -moz-linear-gradient(to right,lavender, #0cf, lavender);
 	background: linear-gradient(to right,lavender, #0cf, lavender);
 	transition: width 2s, height 2s, transform 2s;
 }
-.p-detail ul, .strength ul, .synopsis ul{padding-left: 8%;}
+.p-detail ul, .strength ul, .synopsis ul{padding-left: 8%;}     
 .p-detail:hover, .strength:hover, .synopsis:hover{
  	box-shadow: 0.375em 0.375em 0.125em 0.125em black;
- 	-webkit-transform:scale(1.2, 1.3);
+ 	-webkit-transform:scale(1.2, 1.3);								/*when hovered, box will grow in size*/
  	-o-transform:scale(1.2, 1.3);
  	-moz-transform:scale(1.2, 1.3);
  	transform:scale(1.2, 1.3);

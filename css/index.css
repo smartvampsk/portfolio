@@ -120,7 +120,7 @@ header nav{
 	transition: transform 2.5s; /* standard*/
 }
 .section3:hover .section31, .section4:hover .section31, .section5:hover .section31{
-	-webkit-transform: translateX(-12.5em);
+	-webkit-transform: translateX(-12.5em);                /*for  translating the overlay in x-axis */
 	-o-transform: translateX(-12.5em);
 	-moz-transform: translateX(-12.5em);
 	transform: translateX(-12.5em);
@@ -132,7 +132,7 @@ header nav{
 	font-size: 3em;
 }
 .text a{
-	text-decoration: none;
+	text-decoration: none;						/* to remove the underline from the anchor*/
 	color: red;
 }
 
@@ -178,13 +178,17 @@ footer{ /* styles for the footer part */
 	transition: -moz-width 1s, height 1s, transform 2s;
 	transition: width 1s, height 1s, transform 2s;
 } 
-.social-sites ul li a img:hover{ box-shadow: 0 0 0.0625em 0.1875em lightblue; opacity: .9 ;transform:rotate(360deg);} /* transitional effect*/
+.social-sites ul li a img:hover{
+	box-shadow: 0 0 0.0625em 0.1875em lightblue;
+	opacity: .9;
+	transform:rotate(360deg); /* transitional effect*/
+} 
 .social-sites ul li{ list-style-type: none; }
 
 .copyright{ /*styles for the copyright part */
 	width: 33.33%;
 	padding-left: 5em;
-	border-left: 0.0625em dotted yellow;
+	border-left: 0.0625em dotted yellow;    /* border in the left side that differentiate the another div*/
 	margin-left: 5em;
 }
 .copyright p{ font-size: 1em; } /* font size for the copyright text */

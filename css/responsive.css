@@ -1,61 +1,135 @@
 /* Name: Santosh Khanal, Student ID:16418522 */
 
 @media screen and (max-width:37em){
-/*  here I will be making responsive. Thus these are for header and footer of all pages.*/
-	.top{display: flex;flex-direction: row;}
-	.logo{width:30%;}
-	.logo img{height: 80%;width: 80%;}
-	.con address{width: 70%; font-size: 1em; margin-left: 35%;}
-	.menu nav {width: 80%; font-size: 1em; line-height: 1.5em; margin: 0 10% ; }
-	.menu nav a{padding: 0 5%;}
+/*  here I will be making my site responsive. header and footer of all pages are modified as below: */
+.top{
+	display: flex; 				/* content of this part will be arranged in row*/
+	flex-direction: row;
+}
+.logo{width:30%;}
+.logo img{
+	height: 80%;
+	width: 80%;
+}
+.con address{width: 70%;
+	font-size: 1em;
+	margin-left: 35%;
+}
+.menu nav {width: 80%;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 0 10%; 
+}
+.menu nav a{padding: 0 5%;}
 
-	.bottom-section{ margin-left:9%; }
+.bottom-section{ margin-left:9%; }
 
-	.footer1{ display: flex;flex-direction: column; margin-left: 2%;  }
-	.about{margin-left:3.5%; border:hidden; text-align: left; font-weight: normal;}
-	.social-sites{margin:1em .7em; text-align: left;}
-	.social-sites ul{margin:.5em -.7em; text-align: left;}
-	.social-sites ul img{ height: 50px; width: 50px;}
-	.social-sites ul li a img { transform:none; margin-left: 0.8em; }
-	.copyright{margin:.0em 0em 1em -4em; border:hidden;}
+.footer1{
+	display: flex;
+	flex-direction: column;     /*content of this part will be arranged in column */
+	margin-left: 2%;
+}
+.about{
+	margin-left:3.5%;
+	border:hidden;
+	text-align: left;
+	font-weight: normal;
+}
+.social-sites{
+	margin:1em .7em;
+	text-align: left;
+}
+.social-sites ul{
+	margin:.5em -.7em;
+	text-align: left;
+}
+.social-sites ul img{
+	height: 50px;
+	width: 50px;
+}
+.social-sites ul li a img {
+	transform:none;
+	margin-left: 0.8em;
+}
+.copyright{
+	margin:.0em 0em 1em -4em;
+	border:hidden;
+}
 
 
 /* for index's section only */
-	.main-section{ background-image: url(../images/santosh.gif); background-size:300px 550px; background-repeat:no-repeat; background-blend-mode: screen;}
-	.section1 q{ font-size: 1.2em; }
-	.section2 img{display:none;}
-	.bottom-section{display: none;}
-	.text{height: 2.69em;}
-	.p11{font-size: 20px;}
-	.p12{font-size: 25px;}
-	.p13{font-size: 30px;}
+.main-section{ 
+	background-image: url(../images/santosh.gif);  /*here background imaged is added */
+	background-size:300px 550px;
+	background-repeat:no-repeat;
+	background-blend-mode: screen;
+}
+.section1 q{ font-size: 1.2em; }
+.section2 img{display:none;}   /* image of the left div is not displayed*/
+.bottom-section{display: none;}  /* content of the bottom is hidden*/
+.text{height: 2.69em;}
+.p11{font-size: 20px;}
+.p12{font-size: 25px;}
+.p13{font-size: 30px;}
 
 
 
 /* for CV's section only */
-	.level h1{ font-size: 1em; line-height: 1.7em; }
-	.level img{ height: 200px; width:200px; margin: 0% 5%; transform: none;}
-	.level img:hover{transform:none;}
-	.level{ display: flex;flex-direction: column;}
-	.level1, .level2, .level3{ display: flex;flex-direction: column; font-size: 0.8em; margin:0;}
-	.level1 h2, .level2 h2, .level3 h2{ font-size: 1.3em; }
-	.p-detail, .c-detail, .education, .synopsis, .strength, .skill {width: 100%; margin: 0% 0% 5% 0; padding: 1em 0em; }
-	.p-detail:hover, .c-detail:hover, .education:hover, .synopsis:hover, .strength:hover, .skill:hover{transform: none;}
+.level h1{ font-size: 1em;
+	line-height: 1.7em;
+}
+.level img{ height: 200px;
+	width:200px;
+	margin: 0% 5%;
+	transform: none;
+}
+.level img:hover{transform:none;}   /* no transitional effect in image when hovered */
+.level{
+	display: flex;                  /* content of this part is arranged in row*/
+	flex-direction: column;
+}
+.level1, .level2, .level3{ 
+	display: flex;
+	flex-direction: column;			/* content of this part is arranged in column*/
+	font-size: 0.8em;
+	margin:0;
+}
+.level1 h2, .level2 h2, .level3 h2{ font-size: 1.3em; }
+.p-detail, .c-detail, .education, .synopsis, .strength, .skill {
+	width: 100%;
+	margin: 0% 0% 5% 0;
+	padding: 1em 0em;
+}
+.p-detail:hover, .c-detail:hover, .education:hover, .synopsis:hover, .strength:hover, .skill:hover{transform: none;} /*no transitional effect when hovered */
 
 
 /* for Bio's section only */
-	.aboutme h1{font-size: 1.5em; line-height: 1.6em;}
-	.aboutme p{font-size: 1em;}
-	.aboutme h3{font-size: 1.3em}
+.aboutme h1{
+	font-size: 1.5em;
+	line-height: 1.6em;
+}
+.aboutme p{font-size: 1em;}
+.aboutme h3{font-size: 1.3em}
 
 
 /* for Contact's section only */
-	.container{ display: flex;flex-direction: column; margin:0 2%; }
-	.contact1{width: 95%; margin:0%;}
-	.contact1 p, .contact2 p{font-size: 0.65em; width: 8em;}
-	.contact1 fieldset{margin-right: 7%;}
-	.contact1 input{margin-left: .1em;}
-	.contact1 textarea{margin-left: 1.3em;}
-	.contact2 fieldset{width: 70%; margin: 7% 0%;}
-
+.container{
+	display: flex;
+	flex-direction: column;
+	margin:0 2%;
+}
+.contact1{
+	width: 95%;
+	margin:0%;
+}
+.contact1 p, .contact2 p{
+	font-size: 0.65em;
+	width: 8em;
+}
+.contact1 fieldset{margin-right: 7%;}
+.contact1 input{margin-left: .1em;}
+.contact1 textarea{margin-left: 1.3em;}
+.contact2 fieldset{
+	width: 70%;
+	margin: 7% 0%;
 }

@@ -1,10 +1,10 @@
 /* Name: Santosh Khanal, Student ID:16418522 */
 
 section{
-    color:black;
-    font-weight: bold;
+    color:black;                /* text-color of this content is set to black*/
+    font-weight: bold;          /* making bold font */
     font-size: 1em;
-    background-color: #80a5c2;
+    background-color: #80a5c2;   /* changing background color*/
 }
 .container{
     display: flex;
@@ -15,20 +15,30 @@ section{
  .contact1 fieldset{
     width: 55%;
     background-color:  #F9F9F9;
-    border:0.0625em solid  #034c2e;
+    border:0.0625em solid  #034c2e;         /*giving border to the fieldset */
     padding: 1.25em 0.625em 1.875em 0.625em;
     border-radius: 0.9375em;
-    box-shadow:0.25em 0.25em  0 0.1875em brown;
+    box-shadow:0.25em 0.25em  0 0.1875em brown;    /*creating shadow of the box */
 
 }
-.contact1 h2{ text-align: center; color: yellow; background-color: brown; }
-.contact1 p{ width: 11.875em; margin:0.375em;}
+.contact1 h2{
+    text-align: center;
+    color: yellow;
+    background-color: brown;
+}
+.contact1 p{
+    width: 11.875em;
+    margin:0.375em;
+}
 .fieldset{
     display: flex;
     flex-direction: row;
 }
 input, textarea{ margin:0.375em; }
-textarea{ width: 60%; height:5em; }
+textarea{
+    width: 60%;
+    height:5em;
+}
 .submit{
     margin-left: 45%;
     margin-top: 5%;
@@ -48,7 +58,11 @@ textarea{ width: 60%; height:5em; }
     border-radius: 0.9375em;
     box-shadow:0.25em 0.25em 0 0.1875em brown;
 }
-.contact2 h2{ text-align: center; color: yellow; background-color: brown; }
+.contact2 h2{
+    text-align: center;
+    color: yellow;
+    background-color: brown;
+}
 .contact2 li{ width: 6.25em; }
 .contact2 ul li { list-style-type: none; }
 
